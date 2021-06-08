@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: G_State 6_1
+  m_EditorClassIdentifier: 
+  storyText: "Den Waldweg weiter entlang, stellt Randy fest, dass hier nur ein \nkurzer
+    aber kurviger Weg nach unten ist.\n\xC4hlich wie eine Serpentine. Knapp konnte
+    er dem Sprung eines Pilzkopfes entgehen, der nun den Weg nach unten rollt.\n\nEs
+    gibt nur eine Richtungen, die der Held einschlagen wird,\ndenn den Waldweg weiter
+    Folgen, w\xFCrde zum Ausgang f\xFChren.\n\n1. Den Waldweg zur\xFCck und woanders
+    lang gehen...\n"
+  nextStates:
+  - {fileID: 11400000, guid: 885ef9bd39cb2514d9f0863cd9114f3b, type: 2}

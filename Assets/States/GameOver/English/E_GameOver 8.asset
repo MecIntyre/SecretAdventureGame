@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_GameOver 8
+  m_EditorClassIdentifier: 
+  storyText: "The hero strays ahead, totally messed up and helpless...\n\nDo you
+    wanna try again and investigate more?\n\n1. Yes and this time, i will find the
+    right way...\n2. No, because i am actually to tired and the hero could it   \n  
+    alone..."
+  nextStates:
+  - {fileID: 11400000, guid: b620917c56b8c1248b65ffab59f80d62, type: 2}
+  - {fileID: 11400000, guid: 8b7908afbd0b8ce4ba005346b05c0594, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_State 1_1
+  m_EditorClassIdentifier: 
+  storyText: "Arrived at the big and open meadow, Randy is seeing a lot of incomming
+    sunlight and yellow rabbits are jumping messy around.\n\rOn of this creaturs
+    jumping straight towards the hero\n\n\rWhat should Randy do?\r\n\n1. Attack the
+    evil rabbit in an open battle...\n2. Try to avoid the battle and pass by...\n3.
+    Turn around and fly to the south...."
+  nextStates:
+  - {fileID: 11400000, guid: 849a7045b782b1849ae1ca061525caa6, type: 2}
+  - {fileID: 11400000, guid: 849a7045b782b1849ae1ca061525caa6, type: 2}
+  - {fileID: 11400000, guid: 03b6c46449dd81b45b603fe661cebc1f, type: 2}

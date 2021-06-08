@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: G_State 0_2
+  m_EditorClassIdentifier: 
+  storyText: "Nachdem der Held sich an den gr\xFCnen und grummelnden B\xE4umen vorbei
+    bewegt hat, ist er nun wieder in der Ausgangsebene des Waldes angekommen.\nRandy
+    ist kein St\xFCck weiter gekommen und \xFCberlegt erneut, welchen Weg er gehen
+    soll?\n\r\nZwei Wege stehen zur Auswahl:\n\n1. Nach Norden f\xFChrt ein etwas
+    gr\xF6\xDFerer Weg, \n   zu einer freien Grasfl\xE4che.\r..\n2. Nach Osten f\xFChrt
+    ein schmaler Weg um einen gr\xF6\xDFeren    \n   Baum.\r..\n"
+  nextStates:
+  - {fileID: 11400000, guid: d8ab913f46fd54a409c48d279515440e, type: 2}
+  - {fileID: 11400000, guid: 018e7c32ead74b44c814a391e7eee1eb, type: 2}

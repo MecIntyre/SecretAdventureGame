@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_State 2_3_1
+  m_EditorClassIdentifier: 
+  storyText: "Randy moves to the rock and stands behind them.\nHe grabs the grip
+    of the sword, strong with both hands and tries to pull... with all his might...\nSuddently...
+    the talisman begins to pulsate loud and strong...\nand with a heavy jolt, attend
+    with a big flashlight, slipps the sacred sword out of the blessed rock!\n\nThree
+    big and mushroom shaped myconids appearing out of nowhere and stands towerd the
+    hero, what will Randy doing?\n\n1. Hiding behind the blessed rock and prays...\n2.
+    Try to attack the myconids and get rid of them... \n3. Use the blade to pushing
+    it cowardly, into your belly..."
+  nextStates:
+  - {fileID: 11400000, guid: 31ed71493b774fb499920a2f0cbb37ed, type: 2}
+  - {fileID: 11400000, guid: cd5417b0d05d0a149a29a992bdbd0f43, type: 2}
+  - {fileID: 11400000, guid: 016a870390afa064ea7b030260e54ffb, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: G_State 3_1
+  m_EditorClassIdentifier: 
+  storyText: "An einem kleinen und Steilen hang angekommen, schaut sich der Held
+    erstmal etwas um, w\xE4hrend er durchatmet.\nDie Luft ist etwas d\xFCnner und
+    nebliger.\nAls Randy sich weiter rumschaut, h\xFCpft ein aggressiver M\xFCmmler
+    aus dem Geb\xFCsch und \xFCberrascht ihn.\nallerdings sieht er auch, das Amulett
+    im Maul des Tieres\n\r\nWo soll der Held jetzt tun?\r\n\n1. Versuchen das Amulett
+    aus dem Maul zu ziehen und \n   abzuhauen...\n2. Dem M\xFCmmler ordentlich eins
+    \xFCberbraten und das Amulett \n   abnehmen...\n3. Abwarten und schauen was passiert...\n"
+  nextStates:
+  - {fileID: 11400000, guid: 17e00a652644d504d959aac1809c9e77, type: 2}
+  - {fileID: 11400000, guid: ee93e4a7b90e73c448c2f70041f2371c, type: 2}
+  - {fileID: 11400000, guid: 17e00a652644d504d959aac1809c9e77, type: 2}

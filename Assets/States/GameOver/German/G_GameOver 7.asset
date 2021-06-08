@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: G_GameOver 7
+  m_EditorClassIdentifier: 
+  storyText: "Randy hat erfolreich sein wertvolles Amulett wieder gefunden, das gesegnete
+    Schwert aus dem heiligen Stein gezogen und den Wald verlassen.\nWas wird ihm
+    wohl noch alles widerfahren?\nDies war auf jedenfall nur der Beginn einer langen
+    und spannenden Reise.\n\nVielen Dank f\xFCr das spielen des Secret Adventure
+    Game\n\nM\xF6chtest du noch einmal ?\n\n1. Ja auf jedenfall...\n2. Nein, die
+    eine Reise hat mir gereicht..."
+  nextStates:
+  - {fileID: 11400000, guid: 3e9a4594632874f41be59ecfa48161c6, type: 2}
+  - {fileID: 11400000, guid: 8b7908afbd0b8ce4ba005346b05c0594, type: 2}

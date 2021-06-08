@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_State 3_1
+  m_EditorClassIdentifier: 
+  storyText: "Randy arrives at a high cliff, he looks around and breaths a little
+    time from the climbing. The air is a bit more thin and cloudy.\nAfter some moments,
+    jumps a wild and angry rabbit out of the shrubbs. \nThe hero sees the talisman
+    blinking in the jaws of the mad animal.\n\nWhat will Randy going to do?\r\n\n1.
+    Try to pull the talisman out of his jaws and run away...\n2. Hit the angry rabbit
+    in his face and showing him, who to \n   boss is...\n3. Wating and investigate
+    what will happen...\n"
+  nextStates:
+  - {fileID: 11400000, guid: e3f08809273017149a05c2d5800e2d28, type: 2}
+  - {fileID: 11400000, guid: b8593548ea0fc1c49862bc61f59750b4, type: 2}
+  - {fileID: 11400000, guid: e3f08809273017149a05c2d5800e2d28, type: 2}

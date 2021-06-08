@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: G_State 2_3_1
+  m_EditorClassIdentifier: 
+  storyText: "Randy bewegt sich zu dem Felsen und stell sich hinter ihm. \nEr packt
+    den Griff des Schwertes, fest mit beiden H\xE4nden.\nKr\xE4ftig zieht der Held
+    mit aller Macht...\nPl\xF6tzlich beginnt das Amulett laut und kr\xE4ftig zu pulsieren...\nMit
+    einem starken Ruck und kr\xE4ftigen Lichtblitz, entgleitet die Klinge dem Felsen!\n\r\nWie
+    aus dem Nichts, erscheinen vor Randy drei wildgewordene Pilzk\xF6pfe, was tut
+    er?\n\n1. Sich hinter dem Felsen verstecken und beten...\n2. Versuchen die drei
+    Pilzk\xF6pfe niederzustrecken... \n3. Die Klinge nutzen und sich feige in den
+    Bauch rammen..."
+  nextStates:
+  - {fileID: 11400000, guid: 4a1735038ec8a0942a196d3d60652af6, type: 2}
+  - {fileID: 11400000, guid: 45bce3af7c152f24fa27729eb9f59aa1, type: 2}
+  - {fileID: 11400000, guid: 0179c2087519db8459630687c7550f0d, type: 2}

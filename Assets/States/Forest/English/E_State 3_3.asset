@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_State 3_3
+  m_EditorClassIdentifier: 
+  storyText: "Randy stands after the long climbin up, one moment for breathing and
+    watching.\nBecaus this is a deadend, he can only turn back and climb down again.
+    \nThere is nothing here anymore.\n\r\nWhat should the hero doing?\n\n1. Leaning
+    over the cliff and watching down to investigate...\n2. Heading to the big meadow
+    into the south..."
+  nextStates:
+  - {fileID: 11400000, guid: 31ed71493b774fb499920a2f0cbb37ed, type: 2}
+  - {fileID: 11400000, guid: bf27eb10f1416f847b4af3cfe80b6e56, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_State 1_4
+  m_EditorClassIdentifier: 
+  storyText: "Randy arrives at the big and open meadow again...\nHe moves on and
+    tries to avoid the contact, with the jumping rabbits and the new appeared myconids,
+    they are messing around with funny noises.  \nRandy has now four different ways,
+    he can walks to.\n\nWhere should the hero going to?\r\n\n1. Head to a small but
+    high mountain cliff in the north...\n2. Along the meadow to the west...\n3. A
+    decent but rampant growthed way leads into the east...\n4. Go to the south into
+    the deep forest back..."
+  nextStates:
+  - {fileID: 11400000, guid: eb67f50bff705284597899b6a794c550, type: 2}
+  - {fileID: 11400000, guid: 9051bc7571d8a7e4da289179ee463547, type: 2}
+  - {fileID: 11400000, guid: 80f3866d8f2a3574196485ad1f37ed5d, type: 2}
+  - {fileID: 11400000, guid: 38746ca45b6faca4297b8e7b4137dab0, type: 2}

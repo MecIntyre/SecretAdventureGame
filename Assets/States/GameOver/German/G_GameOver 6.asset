@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: G_GameOver 6
+  m_EditorClassIdentifier: 
+  storyText: "Nachdem Randy sich an die Br\xFCstung der Br\xFCcke gestellt hat und
+    das flie\xDFende Wasser vertr\xE4umt beobacht, ist er m\xFCde geworden, knallt
+    mit dem Kopf an das Gel\xE4nder \nund f\xE4llt blutend in das Gew\xE4sser...\n\nM\xF6chtest
+    du noch einmal versuchen?\n\n1. Ja und diesesmal werde ich den richtigen Weg
+    finden.\n2. Nein, aktuell bin ich zu m\xFCde zum weiterlaufen."
+  nextStates:
+  - {fileID: 11400000, guid: 3e9a4594632874f41be59ecfa48161c6, type: 2}
+  - {fileID: 11400000, guid: 8b7908afbd0b8ce4ba005346b05c0594, type: 2}

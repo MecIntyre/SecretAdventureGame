@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_State 2_1_2
+  m_EditorClassIdentifier: 
+  storyText: 'Randy moves around the big tree and take notice of the thick and darker
+    forest. Some birds still talking and flying around.
+
+    He follows further more
+    the small way on the ground and passes some older trees.
+
+    The way is going
+    darker and even smaller, moves on around a corner into the north-east.
+
+    
+
+    There
+    are two possible ways to move on?
+
+
+    1. Heading to the north-east around the
+    corner...
+
+    2. Go back to the west, deep into the forest...
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: f3e7885a7f87fd241910760a39d07f33, type: 2}
+  - {fileID: 11400000, guid: 38746ca45b6faca4297b8e7b4137dab0, type: 2}

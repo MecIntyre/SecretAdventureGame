@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: G_State 5_1
+  m_EditorClassIdentifier: 
+  storyText: "Randy l\xE4uft die Wiese weiter hinunter und kommt zu einem Waldweg,
+    der zu einem Fluss mit einer Br\xFCcke f\xFChrt.\n\r\xDCber die Br\xFCcke hinweg,
+    gelangt er zum n\xE4chsten Waldweg und an einer weiteren Baumkette vorbei, wo
+    der Weg einen knick macht.\n\nWo soll der Held hin laufen?\r\n\n1. Den Waldweg
+    weiter folgen...\n2. An der Br\xFCcke eine Rast machen und ins Wasser \n   schauen...\n3.
+    Umdrehen und den Weg wieder zur\xFCck...\n"
+  nextStates:
+  - {fileID: 11400000, guid: 1010140bdf4d20e468f5fa657566dcc6, type: 2}
+  - {fileID: 11400000, guid: 7c0abb008c76dc94291db85902a6d549, type: 2}
+  - {fileID: 11400000, guid: 498a97cb961eb2f4aa292fa2a31e63f8, type: 2}

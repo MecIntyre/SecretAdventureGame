@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_State 2_3
+  m_EditorClassIdentifier: 
+  storyText: 'Randy moves to the rock and stands behind them.
+
+    He grabs the grip
+    of the sword, strong with both hands and tries to pull... with all his might...
+
+    Without
+    success... but Randy comes into his mind, why he needs his talisman, it lends
+    him the power to pull out the sword.
+
+    
+
+    Randy has to possible options
+    he can do.
+
+
+    1. Examine the rock again and investigate more...
+
+    2. Going
+    back where you came and looking at the talisman...
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 6b3021920587b244687030468aee1b8f, type: 2}
+  - {fileID: 11400000, guid: d053bceaa0b4cd8449804fa8520a4498, type: 2}

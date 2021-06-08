@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_State 0_3
+  m_EditorClassIdentifier: 
+  storyText: "Randy is back where the search starts, on his first place.\nThe birds
+    are talking loud and insects are flying through the green, in the wind moving
+    gras.\n\nWhich way will the hero take?\r\n\n1. Into the north leads a big way
+    to a huge meadow.\r..\n2. A small and little way leads around a big tree to the
+    east. "
+  nextStates:
+  - {fileID: 11400000, guid: bf27eb10f1416f847b4af3cfe80b6e56, type: 2}
+  - {fileID: 11400000, guid: dadf7c249867f2c40a4f109c92a7acc8, type: 2}

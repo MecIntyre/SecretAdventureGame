@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_State 1_2
+  m_EditorClassIdentifier: 
+  storyText: 'Randy leaves the angry rabbit behind, because it is no serious threat.
+
+    He
+    moves on and tries to avoid the contact, with the jumping creatures and has now
+    four different ways, he can walks to.
+
+    
+
+    Where should the hero going
+    to?
+
+
+    1. Head to a small but high mountain cliff in the north...
+
+    2.
+    Along the meadow to the west...
+
+    3. A decent but rampant growthed way leads
+    into the east...
+
+    4. Go to the south into the deep forest back...
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: dd2edb67eb1fa4748852b35e7b388ccf, type: 2}
+  - {fileID: 11400000, guid: 28b5e69141ee1f5409c653e6855d47e1, type: 2}
+  - {fileID: 11400000, guid: feb0a728b4fb89546922e896a0d6ec66, type: 2}
+  - {fileID: 11400000, guid: 03b6c46449dd81b45b603fe661cebc1f, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: G_Introduction
+  m_EditorClassIdentifier: 
+  storyText: "Der junge Held Randy befindet sich gerade in einem Wald, der gr\xFCne
+    Hain.\nDort ist er unterwegs, um die gesegnete Klinge, wieder aus dem heiligen
+    Stein zu ziehen.\nAllerdings ist ihm sein wertvolles Amulett abhanden gekommen,
+    als er sich mit ein paar wildgewordenen, hasen\xE4hnlichen M\xFCmmlern rumgeschlagen
+    hat.\n\nM\xF6chtest du Randy durch den Wald f\xFChren?\n\n1. Abenteuer beginnen...\n2.
+    Den Held weiter herumirren lassen und beenden...\n\n\n\n"
+  nextStates:
+  - {fileID: 11400000, guid: 3e9a4594632874f41be59ecfa48161c6, type: 2}
+  - {fileID: 11400000, guid: ce4b449f9862d5d488c865c62323dcb5, type: 2}

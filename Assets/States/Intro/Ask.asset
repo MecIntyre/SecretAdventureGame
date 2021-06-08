@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: Ask
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to my short and adventurebased text adventure game.
+
+
+    Which
+    language do you wants to play?
+
+
+    1. In english...
+
+    2. In german...'
+  nextStates:
+  - {fileID: 11400000, guid: 96e83098b8bcedb439a3acdffd982b7f, type: 2}
+  - {fileID: 11400000, guid: d4b3b1b0cb26d7a429e8a5b1f2523f5f, type: 2}

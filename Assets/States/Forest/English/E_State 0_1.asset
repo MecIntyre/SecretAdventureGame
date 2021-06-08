@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_State 0_1
+  m_EditorClassIdentifier: 
+  storyText: "Randy strays around between groaning trees and green thicket. He is
+    totally stressed out to get his lost talisman back, which is only on part of
+    his task.\nWhile he grumpy walks ahead and nearly triped because of the rootet
+    forest soil, Randy sees twi different ways he could move to.\n\nWhich way will
+    the hero take?\r\n\n1. Into the north leads a big way to a huge meadow.\r..\n2.
+    A small and little way leads around a big tree to the east. \n"
+  nextStates:
+  - {fileID: 11400000, guid: a079b4335091d294fb4a4ed21b354683, type: 2}
+  - {fileID: 11400000, guid: d053bceaa0b4cd8449804fa8520a4498, type: 2}

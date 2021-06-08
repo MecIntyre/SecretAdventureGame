@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: E_State 4_3
+  m_EditorClassIdentifier: 
+  storyText: 'Randy is moving further more through the overgrown ground until he
+    reaches a massive overgrown chain of trees, they are surrounding a deadend and
+    there is no walkthrough possible.
+
+    
+
+    Whalt should the hero doing?
+
+
+    1.
+    Sit down, calming and resting some time...
+
+    2. Heading to the big meadow
+    into the west...'
+  nextStates:
+  - {fileID: 11400000, guid: 7d510c3e06975bf4d9cc8377e7ce4917, type: 2}
+  - {fileID: 11400000, guid: a11a298a7aea8b34da8fae3e69836884, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4848e1b92401e408e0d54a70a9d825, type: 3}
+  m_Name: G_State 1_2
+  m_EditorClassIdentifier: 
+  storyText: "Nachdem der M\xFCmmler \xFCberhaupt keine ernstzunehmende Gefahr darstellte,
+    hat Randy ihn erfolgreich hinter sich gelassen.\nEr l\xE4uft nun ein St\xFCck
+    weiter und versucht der hoppelnden Gefahr aus dem Weg zu gehen.\nNun hat Randy
+    zwischen den ganzen Str\xE4uchern vier M\xF6glichkeiten der Richtungsauswahl.\n\r\nWo
+    soll der Held hin laufen?\r\n\n1. Nach Norden zu einem kleinen Gebirgshang...\n2.
+    Nach Westen entlang und die Wiese weiter...\n3. Nach Osten durch einen leicht
+    zugewucherten Weg...\n4. Nach S\xFCden in den tieferen Wald zur\xFCck...\n"
+  nextStates:
+  - {fileID: 11400000, guid: 2e722d2e267a27e488faa6fd4577103d, type: 2}
+  - {fileID: 11400000, guid: 885ef9bd39cb2514d9f0863cd9114f3b, type: 2}
+  - {fileID: 11400000, guid: 7ac75c2b37b2b6a4382951d0ba374332, type: 2}
+  - {fileID: 11400000, guid: 80e2c53bd3f47d64f82171ba906c0238, type: 2}
